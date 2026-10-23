@@ -1,28 +1,39 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
-:root {
-  // Цвета для светлой темы
-  --light: #faf8f8;
-  --lightgray: #e5e5e5;
-  --gray: #b8b8b8;
-  --darkgray: #4e4e4e;
-  --dark: #2b2b2b;
-  --secondary: #284b63;
-  --tertiary: #84a59d;
-  --highlight: #8f9fa926;
-  --textHighlight: #fff23688;
+// Стили заголовков как в Things
+h1, h2 {
+  color: var(--dark); // В Things h1 и h2 обычного цвета текста
+}
 
-  // Цвета для тёмной темы
-  &[saved-theme="dark"] {
-    --light: #161618;
-    --lightgray: #393639;
-    --gray: #646464;
-    --darkgray: #d4d4d4;
-    --dark: #ebebec;
-    --secondary: #7b97aa;
-    --tertiary: #84a59d;
-    --highlight: #8f9fa926;
-    --textHighlight: #b3aa0288;
-  }
+h3 {
+  color: var(--secondary); // Синий (--blue)
+}
+
+h4 {
+  color: #e5b567; // Жёлтый (--yellow)
+}
+
+h5 {
+  color: #e83e3e; // Красный (--red)
+}
+
+h6 {
+  color: var(--gray); // Приглушённый
+}
+
+// Жирный и курсив в Things — розовые
+strong, em {
+  color: #ff82b2; // --pink
+}
+
+// Цитаты — зелёные
+blockquote {
+  color: var(--tertiary);
+  border-left-color: var(--tertiary);
+}
+
+// Ссылки подчёркнуты (как в Things)
+a {
+  text-decoration: underline;
 }
