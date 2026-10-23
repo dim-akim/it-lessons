@@ -1,3 +1,18 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+// Настройка шрифтов
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+// Стили для заголовков
+h1, h2, h3 {
+  color: var(--dark);  font-weight: 600;
+}
+
+// Кастомные каллауты
+.callout[data-callout="tip"] {
+  border-color: #00d4aa;
+  background-color: rgba(0, 212, 170, 0.1);
+}
