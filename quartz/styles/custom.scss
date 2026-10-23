@@ -1,18 +1,28 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
-// Настройка шрифтов
-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-}
+:root {
+  // Цвета для светлой темы
+  --light: #faf8f8;
+  --lightgray: #e5e5e5;
+  --gray: #b8b8b8;
+  --darkgray: #4e4e4e;
+  --dark: #2b2b2b;
+  --secondary: #284b63;
+  --tertiary: #84a59d;
+  --highlight: #8f9fa926;
+  --textHighlight: #fff23688;
 
-// Стили для заголовков
-h1, h2, h3 {
-  color: var(--dark);  font-weight: 600;
-}
-
-// Кастомные каллауты
-.callout[data-callout="tip"] {
-  border-color: #00d4aa;
-  background-color: rgba(0, 212, 170, 0.1);
+  // Цвета для тёмной темы
+  &[saved-theme="dark"] {
+    --light: #161618;
+    --lightgray: #393639;
+    --gray: #646464;
+    --darkgray: #d4d4d4;
+    --dark: #ebebec;
+    --secondary: #7b97aa;
+    --tertiary: #84a59d;
+    --highlight: #8f9fa926;
+    --textHighlight: #b3aa0288;
+  }
 }
