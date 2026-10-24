@@ -6,7 +6,7 @@ import YAML from "yaml"
 const LOCKFILE_PATH = path.join(process.cwd(), "quartz.lock.json")
 const PLUGINS_DIR = path.join(process.cwd(), ".quartz", "plugins")
 const CONFIG_YAML_PATH = path.join(process.cwd(), "quartz.config.yaml")
-const DEFAULT_CONFIG_YAML_PATH = path.join(process.cwd(), "quartz.config.default.yaml")
+const DEFAULT_CONFIG_YAML_PATH = path.join(process.cwd(), "quartz.config.yaml")
 const TEMPLATES_DIR = path.join(process.cwd(), "quartz", "cli", "templates")
 
 const LEGACY_PLUGINS_JSON_PATH = path.join(process.cwd(), "quartz.plugins.json")

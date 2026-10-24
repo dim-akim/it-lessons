@@ -201,7 +201,7 @@ npx quartz plugin add github:username/repo
 
 The branch ref is tracked in `quartz.lock.json`, so `install --latest` will continue to follow the specified branch until the plugin is re-added without one.
 
-Both `prune` and `install --from-config` will fall back to `quartz.config.default.yaml` if no `quartz.config.yaml` is present.
+Both `prune` and `install --from-config` will fall back to `../../quartz.config.yaml` if no `quartz.config.yaml` is present.
 
 ### Local Plugin Development
 

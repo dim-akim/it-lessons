@@ -1,34 +1,3 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
-// Стили заголовков как в Things
-h1, h2 {
-  color: var(--dark); // В Things h1 и h2 обычного цвета текста
-}
-
-h3 {
-  color: var(--secondary); // Синий (--blue)
-}
-
-h4 {
-  color: #e5b567; // Жёлтый (--yellow)
-}
-
-h5 {
-  color: #e83e3e; // Красный (--red)
-}
-
-h6 {
-  color: var(--gray); // Приглушённый
-}
-
-// Жирный и курсив в Things — розовые
-strong, em {
-  color: #ff82b2; // --pink
-}
-
-// Цитаты — зелёные
-blockquote {
-  color: var(--tertiary);
-  border-left-color: var(--tertiary);
-}

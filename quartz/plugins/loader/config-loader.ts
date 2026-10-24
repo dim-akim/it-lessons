@@ -33,7 +33,7 @@ import DesktopOnly from "../../components/DesktopOnly"
 import ConditionalRender from "../../components/ConditionalRender"
 
 const CONFIG_YAML_PATH = path.join(process.cwd(), "quartz.config.yaml")
-const DEFAULT_CONFIG_YAML_PATH = path.join(process.cwd(), "quartz.config.default.yaml")
+const DEFAULT_CONFIG_YAML_PATH = path.join(process.cwd(), "quartz.config.yaml")
 const LEGACY_PLUGINS_JSON_PATH = path.join(process.cwd(), "quartz.plugins.json")
 const LEGACY_DEFAULT_PLUGINS_JSON_PATH = path.join(process.cwd(), "quartz.plugins.default.json")
 

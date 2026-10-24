@@ -7,7 +7,7 @@ import type { PluginSource, QuartzPluginsJson } from "./types.js"
 
 function resolveConfigPath(): string {
   const configYamlPath = path.join(process.cwd(), "quartz.config.yaml")
-  const defaultConfigYamlPath = path.join(process.cwd(), "quartz.config.default.yaml")
+  const defaultConfigYamlPath = path.join(process.cwd(), "quartz.config.yaml")
   const legacyPluginsJsonPath = path.join(process.cwd(), "quartz.plugins.json")
   const legacyDefaultPluginsJsonPath = path.join(process.cwd(), "quartz.plugins.default.json")
 

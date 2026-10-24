@@ -739,7 +739,7 @@ npx quartz plugin prune --dry-run
 ```
 
 > [!tip]
-> Both `resolve` and `prune` fall back to `quartz.config.default.yaml` if no `quartz.config.yaml` is present. This is useful for CI environments where the default config is the source of truth. See [[cli/plugin#prune|prune]] and [[cli/plugin#resolve|resolve]] for full details.
+> Both `resolve` and `prune` fall back to `../../quartz.config.yaml` if no `quartz.config.yaml` is present. This is useful for CI environments where the default config is the source of truth. See [[cli/plugin#prune|prune]] and [[cli/plugin#resolve|resolve]] for full details.
 
 ## Component Plugins
 
