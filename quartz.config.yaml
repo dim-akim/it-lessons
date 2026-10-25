@@ -102,7 +102,7 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: false
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
       theme: things
       mode: both
