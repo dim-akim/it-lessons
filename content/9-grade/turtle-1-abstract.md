@@ -1,6 +1,6 @@
 ---
 publish: true
-title: Черепашка. Урок 1. Конспект
+title: Модуль turtle. Урок 1. Конспект
 created: 2026-10-23
 modified: 2026-10-24
 tags:
@@ -62,9 +62,7 @@ turtle.mainloop()
 
 Если запустить программу, то на экране появится черепашка, которая пока что никуда не двигается:
 
-<img class="img-fluid" role="presentation"
- src="https://edu-admin.skolca.ru/draftfile.php/11572/user/draft/516105166/image.png?1764703388037"
- alt="" width="500" height="349">
+![[turtle-start.png|500]]
 
 ## Шаг 3
 
@@ -83,9 +81,7 @@ turtle.forward(100)
 
 Запустите программу. Ура, ваша черепашка прошла вперед!
 
-<img class="img-fluid" role="presentation"
- src="https://edu-admin.skolca.ru/draftfile.php/11572/user/draft/516105166/image%20%281%29.png?1764703845058"
- alt="" width="500" height="186">
+![[turtle-forward.png|500]]
 
 > [!question] Вопрос
 > Почему она пошла именно туда? С чем это перекликается из математики?
@@ -118,9 +114,7 @@ turtle.forward(100)
 
 Должно получиться вот так:
 
-<img class="img-fluid" role="presentation"
- src="https://edu-admin.skolca.ru/draftfile.php/11572/user/draft/516105166/image%20%282%29.png?1764704467024"
- alt="" width="500" height="128">
+![[turtle-penup.png|500]]
 
 ## Шаг 5
 
@@ -140,9 +134,7 @@ turtle.forward(100)
 
 Выполнив программу, черепашка должна нарисовать ступеньку:
 
-<img class="img-fluid" role="presentation"
- src="https://edu-admin.skolca.ru/draftfile.php/11572/user/draft/516105166/image%20%283%29.png?1764704609406"
- alt="" width="500" height="199">
+![[turtle-left-right.png|500]]
 
 ## Шаг 6
 
@@ -162,9 +154,4 @@ turtle.forward(100)
 
 ## Шаг 7. Задание
 
-Теперь вы знаете все, чтобы приказать черепашке нарисовать **квадрат со стороной 100 шагов**. Поэкспериментируйте с разными фигурами. Вспомните геометрию, чтобы нарисовать **правильный треугольник**, **правильный шестиугольник** или **любую другую правильную фигуру**.
-
-> [!question] Вопрос
-> Какие команды нужно использовать, чтобы все фигуры были нарисованы на одном экране, но между ними не было лишних линий?
-
-Попробуйте дать черепашке команду `circle()`. Как вы думаете, что нужно указать в скобках? Какой есть самый главный параметр у окружности?
+Теперь вы знаете все, чтобы выполнить [[turtle-1-tasks|задание 1]].
