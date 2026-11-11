@@ -2,12 +2,14 @@
 publish: true
 title: Модуль turtle. Урок 1. Конспект
 created: 2026-10-23
-modified: 2026-10-24
+modified: 2026-11-11
 tags:
+  - 8класс
   - 9класс
   - черепашка
   - turtle
   - python
+  - программирование
 ---
 
 ## Шаг 1
@@ -30,7 +32,7 @@ turtle.mainloop()
 
 Теперь обсудим каждую строчку. Запишите в тетрадь каждую команду и пояснение к ней:
 
-```python {1}
+```python
 import turtle
 ```
 

@@ -12,5 +12,6 @@ tags:
 
 > [!abstract] Программирование черепашки (модуль turtle)
 >
-> - [[turtle-1-abstract|Черепашка. Урок 1]]
-> - [[turtle-2-abstract|Черепашка. Урок 2]]
+> - [[turtle-1-abstract|Модуль turtle. Урок 1. Конспект]]
+> - [[turtle-1-tasks|Модуль turtle. Урок 1. Задание]]
+> - [[turtle-2-abstract|Модуль turtle. Урок 2. Конспект]]
